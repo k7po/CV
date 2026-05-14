@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV – محمد اليحيى | Mohammed Alyahya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <div class="nav-logo">&lt;MA /&gt;</div>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="#skills">    <span data-ar>المهارات</span><span data-en>Skills</span></a></li>
+      <li><a href="#experience"><span data-ar>الخبرة</span>  <span data-en>Experience</span></a></li>
+      <li><a href="#projects">  <span data-ar>المشاريع</span><span data-en>Projects</span></a></li>
+      <li><a href="#certificates"><span data-ar>الشهادات</span> <span data-en>Certificates</span></a></li>
+      <li><a href="#badges">      <span data-ar>الشارات</span> <span data-en>Badges</span></a></li>
+      <li><a href="#contact">     <span data-ar>التواصل</span> <span data-en>Contact</span></a></li>
+    </ul>
+    <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN</button>
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()" title="تبديل الوضع / Toggle theme">
+      <span class="theme-icon icon-moon">🌙</span>
+      <span class="theme-icon icon-sun">☀️</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-content">
+
+    <div class="hero-tag">
+      <span data-ar>متاح للعمل الآن</span>
+      <span data-en>Available for Work</span>
+    </div>
+
+    <h1 class="hero-name">
+      <span data-ar>محمد<br/><span class="grad">اليحيى</span></span>
+      <span data-en>Mohammed<br/><span class="grad">Alyahya</span></span>
+    </h1>
+
+    <p class="hero-title">
+      <span data-ar>مطوّر Full-Stack · بناء تجارب رقمية استثنائية</span>
+      <span data-en>Full-Stack Developer · Building Exceptional Digital Experiences</span>
+    </p>
+
+    <p class="hero-desc">
+      <span data-ar>أبني تطبيقات ويب حديثة وقابلة للتوسع بأكثر من 5 سنوات من الخبرة. متخصص في React وNode.js وبنية المايكروسرفسز.</span>
+      <span data-en>I build modern, scalable web applications with 5+ years of experience. Specialized in React, Node.js and microservices architecture.</span>
+    </p>
+
+    <!-- Social Pills -->
+    <div class="social-bar">
+      <a href="https://www.linkedin.com/in/mohammed-alyahya-b10728354/" target="_blank" class="social-pill sp-linkedin">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/k7po" target="_blank" class="social-pill sp-github">
+        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        GitHub
+      </a>
+      <a href="https://x.com/3Aly7ya" target="_blank" class="social-pill sp-twitter">
+        <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Twitter / X
+      </a>
+      <a href="https://www.instagram.com/k7po" target="_blank" class="social-pill sp-instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram
+      </a>
+      <a href="https://discordapp.com/users/206952608458473474" target="_blank" class="social-pill sp-discord">
+        <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        Discord
+      </a>
+      <a href="mailto:m.alyahya.eng@gmail.com" class="social-pill sp-email">
+        <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+        Email
+      </a>
+    </div>
+
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary"><span data-ar>تواصل معي</span><span data-en>Get In Touch</span></a>
+      <a href="#projects" class="btn-outline"><span data-ar>مشاريعي</span><span data-en>My Projects</span></a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">5+</div>
+        <div class="stat-label"><span data-ar>سنوات خبرة</span><span data-en>Years Exp.</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">40+</div>
+        <div class="stat-label"><span data-ar>مشروع مكتمل</span><span data-en>Projects Done</span></div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">12+</div>
+        <div class="stat-label"><span data-ar>عميل راضٍ</span><span data-en>Happy Clients</span></div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Avatar -->
+<div class="hero-avatar">
+  <div class="avatar-ring">
+    <div class="avatar-inner">
+      <img src="img/profile.jpg" alt="Profile Picture">
+    </div>
+  </div>
+
+  <div class="avatar-badge">
+    <div class="badge-dot"></div>
+    <span>
+      <span data-ar>متاح للعمل</span>
+      <span data-en>Available for work</span>
+    </span>
+  </div>
+</div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <span class="section-num">01.</span>
+      <h2 class="section-title"><span data-ar>المهارات التقنية</span><span data-en>Technical Skills</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">⚛️</div>
+        <div class="skill-name">React / Next.js</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="92"></div></div>
+        <div class="skill-pct">92%</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🟢</div>
+        <div class="skill-name">Node.js / Express</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="88"></div></div>
+        <div class="skill-pct">88%</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🐍</div>
+        <div class="skill-name">Python / Django</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+        <div class="skill-pct">80%</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🗄️</div>
+        <div class="skill-name">PostgreSQL / MongoDB</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+        <div class="skill-pct">85%</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">☁️</div>
+        <div class="skill-name">AWS / Docker / CI-CD</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="78"></div></div>
+        <div class="skill-pct">78%</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">🎨</div>
+        <div class="skill-name">UI/UX & Figma</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="30"></div></div>
+        <div class="skill-pct">30%</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPERIENCE ══ -->
+<section id="experience">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <span class="section-num">02.</span>
+      <h2 class="section-title"><span data-ar>الخبرة المهنية</span><span data-en>Work Experience</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="timeline-card">
+          <div class="tl-date">2022 – <span data-ar>الحاضر</span><span data-en>Present</span></div>
+          <div class="tl-title"><span data-ar>مطوّر Full-Stack أول</span><span data-en>Senior Full-Stack Developer</span></div>
+          <div class="tl-company"><span data-ar>شركة تك فيجن – الرياض</span><span data-en>TechVision – Riyadh</span></div>
+          <div class="tl-desc">
+            <span data-ar>قيادة تطوير منصة SaaS تخدم أكثر من 50,000 مستخدم شهريًا. تصميم بنية المايكروسرفسز وإدارة فريق من 6 مطورين.</span>
+            <span data-en>Leading development of a SaaS platform serving 50,000+ monthly users. Designing microservices architecture and managing a team of 6 developers.</span>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag">React</span><span class="tl-tag">Node.js</span>
+            <span class="tl-tag">PostgreSQL</span><span class="tl-tag">AWS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+        <div class="timeline-card">
+          <div class="tl-date">2020 – 2022</div>
+          <div class="tl-title"><span data-ar>مطوّر Backend</span><span data-en>Backend Developer</span></div>
+          <div class="tl-company"><span data-ar>نكست ديجيتال – دبي</span><span data-en>NextDigital – Dubai</span></div>
+          <div class="tl-desc">
+            <span data-ar>بناء APIs عالية الأداء وتحسين قواعد البيانات مما أدى إلى تحسين وقت الاستجابة بنسبة 40%.</span>
+            <span data-en>Built high-performance APIs and optimized database queries, improving response time by 40%.</span>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag">Python</span><span class="tl-tag">Django</span>
+            <span class="tl-tag">Redis</span><span class="tl-tag">Docker</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-left"><div class="tl-dot"></div></div>
+        <div class="timeline-card">
+          <div class="tl-date">2019 – 2020</div>
+          <div class="tl-title"><span data-ar>مطوّر Frontend Junior</span><span data-en>Junior Frontend Developer</span></div>
+          <div class="tl-company"><span data-ar>ستارت هب – القاهرة</span><span data-en>StartHub – Cairo</span></div>
+          <div class="tl-desc">
+            <span data-ar>تطوير واجهات مستخدم تفاعلية لعدد من التطبيقات الناشئة باستخدام React وTypeScript.</span>
+            <span data-en>Developed interactive UIs for several startup applications using React and TypeScript.</span>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag">React</span><span class="tl-tag">TypeScript</span><span class="tl-tag">CSS3</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <span class="section-num">03.</span>
+      <h2 class="section-title"><span data-ar>أبرز المشاريع</span><span data-en>Featured Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0c4a6e,#7c3aed)">🛒</div>
+        <div class="project-body">
+          <div class="project-title"><span data-ar>منصة تجارة إلكترونية</span><span data-en>E-Commerce Platform</span></div>
+          <div class="project-desc">
+            <span data-ar>منصة متكاملة بلوحة تحكم متقدمة ودعم متعدد اللغات والعملات.</span>
+            <span data-en>Full-featured platform with an advanced dashboard, multi-language and currency support.</span>
+          </div>
+          <div class="tl-tags" style="margin-bottom:1rem">
+            <span class="tl-tag">Next.js</span><span class="tl-tag">Stripe</span><span class="tl-tag">MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔗 <span data-ar>عرض حي</span><span data-en>Live Demo</span></a>
+            <a href="#" class="project-link">⌨️ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#064e3b,#0c4a6e)">📊</div>
+        <div class="project-body">
+          <div class="project-title"><span data-ar>لوحة تحليلات بيانات</span><span data-en>Data Analytics Dashboard</span></div>
+          <div class="project-desc">
+            <span data-ar>داشبورد تفاعلي لتصور البيانات في الوقت الفعلي مع مؤشرات KPI.</span>
+            <span data-en>Interactive dashboard for real-time data visualization with KPI indicators.</span>
+          </div>
+          <div class="tl-tags" style="margin-bottom:1rem">
+            <span class="tl-tag">React</span><span class="tl-tag">D3.js</span><span class="tl-tag">Node.js</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔗 <span data-ar>عرض حي</span><span data-en>Live Demo</span></a>
+            <a href="#" class="project-link">⌨️ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#4c1d95,#1e3a5f)">💬</div>
+        <div class="project-body">
+          <div class="project-title"><span data-ar>تطبيق دردشة فوري</span><span data-en>Real-Time Chat App</span></div>
+          <div class="project-desc">
+            <span data-ar>تطبيق محادثات فوري مع تشفير طرفي ومجموعات وإشعارات push.</span>
+            <span data-en>Instant messaging app with end-to-end encryption, group chats and push notifications.</span>
+          </div>
+          <div class="tl-tags" style="margin-bottom:1rem">
+            <span class="tl-tag">Socket.io</span><span class="tl-tag">React</span><span class="tl-tag">Redis</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">🔗 <span data-ar>عرض حي</span><span data-en>Live Demo</span></a>
+            <a href="#" class="project-link">⌨️ GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ certificates ══ -->
+<section id="certificates" class="section-wrap">
+  <h2 class="section-title reveal">
+    <span data-ar>الشهادات</span>
+    <span data-en>Certificates</span>
+  </h2>
+  
+  <div class="certs-grid">
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img\Icons\MySql_icon.png" alt="Database Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Database Foundations</h3>
+          <p class="cert-org">Oracle Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\clmsCertificate.pdf', '_blank')">
+          <img src="img\certificate\clmsCertificate.jpg" alt="Oracle">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img\Icons\python_icon.png" alt="Python Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Python Essentials 1</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\Python_Essentials_1_certificate.pdf', '_blank')">
+          <img src="img\certificate\Python_Essentials_1_certificate.jpg">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img\Icons\cisco_packet.webp" alt="Packet Tracer Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Cisco Packet Tracer</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\Getting_Started_with_Cisco_Packet_Tracer_certificate.pdf', '_blank')">
+          <img src="img\certificate\Getting_Started_with_Cisco_Packet_Tracer_certificate.jpg">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img/Icons/iot.png" alt="IoT Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Exploring IoT</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\Exploring_IoT_with_Cisco_Packet_Tracer_certificate.pdf', '_blank')">
+          <img src="img\certificate\Exploring_IoT_with_Cisco_Packet_Tracer_certificate.jpg">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img\Icons\network_icon.png" alt="Network Security Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Exploring Networking</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\Exploring_Networking_with_Cisco_Packet_Tracer_certificate.pdf', '_blank')">
+          <img src="img\certificate\Exploring_Networking_with_Cisco_Packet_Tracer_certificate.jpg">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="cert-icon"><img src="img/Icons/html_icon.png" alt="HTML Icon" style="width: 800px; height: 60px; object-fit: contain;">
+      </div>
+          <h3 class="cert-name">HTML Essentials</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('Certificate\\files\\HTML_Essentials_certificate.pdf', '_blank')">
+          <img src="img\certificate\HTML_Essentials_certificate.png">
+          <div class="back-overlay">
+            <span data-ar>عرض الشهادة</span>
+            <span data-en>View Certificate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="badges" class="section-wrap" style="padding-top: 0;">
+  <h2 class="section-title reveal">
+    <span data-ar>الشارات</span>
+    <span data-en>Badges</span>
+  </h2>
+
+  <div class="certs-grid">
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front badge-style">
+          <div class="cert-icon"><img src="img\badges\HTML_Essentials.png" alt="HTML Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">HTML Essentials</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('https://www.credly.com/badges/6ebc0f1b-8c70-49d9-a9f8-c0741d637547', '_blank')">
+          <img src="img\badges\HTML_Essentials.png" alt="Badge">
+        <div class="back-overlay">
+          <span data-ar>التحقق</span>
+          <span data-en>Verify</span>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="flip-card reveal">
+      <div class="flip-card-inner">
+        <div class="flip-card-front badge-style">
+          <div class="cert-icon"><img src="img\badges\PythonEssentials 1.png" alt="Python Icon" style="width: 800px; height: 60px; object-fit: contain;"></div>
+          <h3 class="cert-name">Python Essentials</h3>
+          <p class="cert-org">Cisco Networking Academy</p>
+        </div>
+        <div class="flip-card-back" onclick="window.open('https://www.credly.com/badges/1896bf41-3f0e-4829-8d31-1ea97df4b516', '_blank')">
+          <img src="img\badges\PythonEssentials 1.png" alt="Badge">
+        <div class="back-overlay">
+          <span data-ar>التحقق</span>
+          <span data-en>Verify</span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <span class="section-num">04.</span>
+      <h2 class="section-title"><span data-ar>تواصل معي</span><span data-en>Get In Touch</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+
+      <!-- Social Cards -->
+      <div class="contact-info reveal">
+        <h3><span data-ar>هل لديك مشروع؟ لنتحدث 🚀</span><span data-en>Have a project? Let's talk 🚀</span></h3>
+        <p>
+          <span data-ar>أنا متاح للفرص الجديدة والمشاريع المستقلة. تواصل معي عبر أي من القنوات أدناه:</span>
+          <span data-en>I'm available for new opportunities and freelance projects. Reach me through any channel below:</span>
+        </p>
+        <div class="social-cards">
+          <a href="https://www.linkedin.com/in/mohammed-alyahya-b10728354/" target="_blank" class="social-card sc-linkedin">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/k7po" target="_blank" class="social-card sc-github">
+            <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a href="https://x.com/3Aly7ya" target="_blank" class="social-card sc-twitter">
+            <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Twitter / X
+          </a>
+          <a href="https://www.instagram.com/k7po" target="_blank" class="social-card sc-instagram">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </a>
+          <a href="https://discordapp.com/users/206952608458473474" target="_blank" class="social-card sc-discord">
+            <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.03.056a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            Discord
+          </a>
+          <a href="mailto:m.alyahya.eng@gmail.com" class="social-card sc-email">
+            <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+            Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label><span data-ar>الاسم الكامل</span><span data-en>Full Name</span></label>
+          <input type="text" id="inp-name" />
+        </div>
+        <div class="form-group">
+          <label><span data-ar>البريد الإلكتروني</span><span data-en>Email Address</span></label>
+          <input type="email" id="inp-email" placeholder="email@example.com" />
+        </div>
+        <div class="form-group">
+          <label><span data-ar>الموضوع</span><span data-en>Subject</span></label>
+          <input type="text" id="inp-subject" />
+        </div>
+        <div class="form-group">
+          <label><span data-ar>الرسالة</span><span data-en>Message</span></label>
+          <textarea id="inp-msg"></textarea>
+        </div>
+        <button class="btn-primary" onclick="handleSend(this)" style="width:100%;margin-top:.5rem">
+          <span data-ar>إرسال الرسالة ✉️</span>
+          <span data-en>Send Message ✉️</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <p>
+    <span data-ar>© 2026 جميع الحقوق محفوظة لدى محمد اليحيى.</span>
+    <span data-en>© 2026 All rights reserved to Mohammed Alyahya.</span>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
