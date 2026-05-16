@@ -538,7 +538,7 @@ footer span { color:var(--accent); }
 }
 .flip-card-back:hover .back-overlay { opacity: 1; }
 
-/* تقليل المسافة بين القسمين */
+/* تقليل المسافة بين القسمين \*/
 #badges .certs-grid {
   display: flex;
   flex-wrap: wrap;
