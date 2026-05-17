@@ -337,6 +337,24 @@ section { position: relative; z-index: 1; }
   border-radius: 20px 20px 0 0;
 }
 
+.tl-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  margin-bottom:1rem;
+}
+
+.tl-tag{
+  background: rgba(0,255,255,.08);
+  border: 1px solid rgba(0,255,255,.2);
+  color: #00d9ff;
+  padding: .45rem .9rem;
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* ── CONTACT ── */
 .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start; }
 .contact-info h3 { font-size:1.5rem; font-weight:700; margin-bottom:1rem; }
